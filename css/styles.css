@@ -6,11 +6,24 @@
 
 
 .survey-section {
-  background: #ccc;
   margin-top: 100px;
   padding: 20px;
 }
 
+.survey-section-bg {
+  background: #ccc;
+}
+
 form {
   max-width: 50%;
+}
+
+.dark-text {
+  background: #fff;
+  color: #000;
+}
+
+.light-text {
+  background: #333;
+  color: #fff;
 }

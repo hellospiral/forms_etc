@@ -30,7 +30,22 @@ $(document).ready(function() {
 
   });
 
+  $("button#darktext").click(function() {
+    $("body").removeClass();
+    $(".survey-section").removeClass("survey-section-bg");
+    $("body").addClass("dark-text");
+  });
 
+  $("button#lighttext").click(function() {
+    $("body").removeClass();
+    $(".survey-section").removeClass("survey-section-bg");    
+    $("body").addClass("light-text");
+  });
+
+  $("#name2, .apt-box").click(function() {
+
+    $(".survey-section").addClass("survey-section-bg");
+  });
 
 
 
